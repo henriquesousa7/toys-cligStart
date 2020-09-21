@@ -32,7 +32,7 @@
                                     if(strcmp($filial, 'Adamantina') == 0){
                                         echo "<tr>";
                                         echo "<td>" . $func . "</td>";
-                                        echo "<td><a href='https://outlook.live.com/'>" . $funcEmails[$filial][$index] . "</a></td>";
+                                        echo "<td><a href='mailto:{$funcEmails[$filial][$index]}'>" . $funcEmails[$filial][$index] . "</a></td>";
                                         echo "<td>" . $filial . "</td>";
                                         echo "</tr>";
                                     }
@@ -62,7 +62,7 @@
                                 if(strcmp($filial, 'Borborema') == 0){
                                     echo "<tr>";
                                     echo "<td>" . $func . "</td>";
-                                    echo "<td><a href='https://outlook.live.com/'>" . $funcEmails[$filial][$index] . "</a></td>";
+                                    echo "<td><a href='mailto:{$funcEmails[$filial][$index]}'>" . $funcEmails[$filial][$index] . "</a></td>";
                                     echo "<td>" . $filial . "</td>";
                                     echo "</tr>";
                                 }
@@ -92,7 +92,7 @@
                                 if(strcmp($filial, 'Cajamar') == 0) {
                                     echo "<tr>";
                                     echo "<td>" . $func . "</td>";
-                                    echo "<td><a href='https://outlook.live.com/'>" . $funcEmails[$filial][$index] . "</a></td>";
+                                    echo "<td><a href='mailto:{$funcEmails[$filial][$index]}'>" . $funcEmails[$filial][$index] . "</a></td>";
                                     echo "<td>" . $filial . "</td>";
                                     echo "</tr>";
                                 }
